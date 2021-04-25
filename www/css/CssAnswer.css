@@ -1,0 +1,27 @@
+.mainanswer
+{
+	display:grid;
+	font-family:tahoma;
+	color:#fff;
+	grid-template-columns:auto;
+	grid-template-rows: auto auto auto;
+}
+iframe
+{
+	padding-top:5%;
+	min-height:550px;
+	min-width:80%;
+}
+.return
+{
+	padding-top:1%;
+	padding-left:5%;
+}
+
+.info1answer
+{
+	padding-top:5%;
+	padding-left:5%;
+	font-size:25px;
+	font-family:tahoma;
+}

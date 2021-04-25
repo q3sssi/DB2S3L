@@ -1,0 +1,104 @@
+html, body{margin:0; padding:0;}
+body
+{
+	background-color:#000;
+}
+.button1DB
+{
+	font-size:30px;
+	font-family:tahoma;
+	background-color:#fff;
+	color:#000;	
+	border:solid black 0px;
+	width:500px;
+	height:70px;
+}
+.button1Table
+{
+	margin-top:5%;
+	font-size:30px;
+	font-family:tahoma;
+	background-color:#fff;
+	color:#000;	
+	border:solid black 0px;
+	width:500px;
+	height:70px;
+}
+.info
+{
+	padding-left:10px;
+	grid-row:1;
+	grid-column:1;
+	font-family:tahoma;
+	line-height:35px;
+	font-size:22px;
+	color:#fff;
+}
+.main
+{	
+	font-family:tahoma;
+	font-size:20px;
+	color:#fff;
+	display:grid;
+	grid-template-columns: minmax(530px,900px) minmax(530px,1100px);
+	grid-template-rows: 350px 350px;
+}
+img
+{
+	width:100%;
+	object-fit: cover;
+	height:90%;
+}
+.image
+{
+	grid-row:1;
+	grid-column:2;
+	text-align:left;
+}
+.butttondiv
+{
+	grid-row:2;
+	grid-column:2;
+}
+
+.form1
+{
+	padding-left:15px;
+	grid-row:2;
+	grid-column:1;
+}
+.button1send
+{
+	font-size:20px;
+	font-family:tahoma;
+	background-color:#fff;
+	color:#000;	
+	border:solid black 0px;
+	width:485px;
+	height:35px;
+}
+input
+{
+	font-size:20px;
+	font-family:tahoma;
+	background-color:#fff;
+	color:#000;	
+	border:solid black 0px;
+	width:300px;
+	height:30px;
+}
+input[type=checkbox]
+{
+	width:15px;
+	height:15px;
+}
+.select1year
+{
+	font-size:20px;
+	font-family:tahoma;
+	background-color:#fff;
+	color:#000;	
+	border:solid black 0px;
+	width:120px;
+	height:30px;
+}
