@@ -1,1 +1,0 @@
-run "firefox.exe"
